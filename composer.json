@@ -1,0 +1,39 @@
+{
+    "name": "ab01faz101/iran-provinces",
+    "description": "A Laravel package for managing Iran's provinces, counties, and cities.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/database": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ab01faz101\\IranProvinces\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ab01faz101\\IranProvinces\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abolfazl",
+            "email": "ar.rahmatyy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ab01faz101\\IranProvinces\\IranProvincesServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^11.0"
+    }
+}
