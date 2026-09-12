@@ -3,9 +3,9 @@
     "description": "A Laravel package for managing Iran's provinces, counties, and cities.",
     "type": "library",
     "license": "MIT",
-     "require": {
+    "require": {
         "php": "^8.2",
-        "illuminate/database": "^10.0|^11.0|^12.0"
+        "illuminate/database": "^10.0|^11.0|^12.0|^13.0"
     },
     "autoload": {
         "psr-4": {
